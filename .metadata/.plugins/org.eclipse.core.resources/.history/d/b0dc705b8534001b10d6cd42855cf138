@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- loading the properties file in spring config -->
+	<context:property-placeholder location="classpath:sport.properties"/>
+	
+    <!-- Define your beans here -->
+    <beans>
+    	<bean id="myCoach"
+    		  class="com.luv2code.springdemo.BaseballCoach">
+    	</bean>
+    	<!-- define the bean dependency -->
+    	<bean id="myFortuneService"
+    		class="com.luv2code.springdemo.HappyFortuneService">
+    	</bean>
+    	<bean id="sportFortuneService"
+    		class="com.luv2code.springdemo.SportFortuneService">
+    	</bean>
+    	
+    	<bean id="myCoach2"
+    		  class="com.luv2code.springdemo.TableTennisCoach">
+    		  <!-- set up constructor injection -->
+    		  <constructor-arg ref="myFortuneService"/>
+    	</bean>
+    	<bean id="trackCoach"
+    		class="com.luv2code.springdemo.TrackCoach">
+    		<constructor-arg ref="myFortuneService"/>
+    	</bean>
+    	<bean id="cricketCoach"
+    		class="com.luv2code.springdemo.CricketCoach">  
+    		<!-- set up setter injection -->  		
+    		<property name="fortuneService" ref="myFortuneService"/> 
+    		<property name="fortuneService2" ref="sportFortuneService"/>       
+    		<property name="emailAddress" value="adityasharma12399@gmail.com"/>
+    		<property name="team" value="Java Team"	/>	
+    	</bean>
+    	<bean id="cricketCoach2"
+    		class="com.luv2code.springdemo.CricketCoach">  
+    		<!-- set up setter injection -->  		
+    		<property name="fortuneService" ref="sportFortuneService"/>    
+    		<property name="emailAddress" value="${foo.email}m"/>
+    		<property name="team" value="${foo.team}"	/>	
+    	</bean>
+    </beans>
+    
+</beans>
+
+
+
+
+

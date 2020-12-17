@@ -1,0 +1,47 @@
+
+ksquid:S1481"2Remove this unused "cricketCoach2" local variable.(¿„ÆÜøÿÿÿÿ8´š—â.H‡RMINORZ
+CODE_SMELL
+q
+squid:S106 "9Replace this use of System.out or System.err by a logger.(™çšùÿÿÿÿ8š“úá.HRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(™çšùÿÿÿÿ8ï»ôúá.H„RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Óüœœ8Öøòúá.HRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹ÇØš8æ¯ª•â.H€RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(™çšùÿÿÿÿ8ï»ôúá.HRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿ÙÒÌùÿÿÿÿ8ï»ôúá.H…RMAJORZ
+CODE_SMELL
+¤squid:S1192"hDefine a constant instead of duplicating this literal "---------------------------------------" 4 times.(™çšùÿÿÿÿ8ï»ôúá.HRCRITICALZ
+CODE_SMELL
+„squid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(Ú½ŸÊşÿÿÿÿ8´š—â.HRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(óÏïŠ8ï»ôúá.H‚RMAJORZ
+CODE_SMELL
+csquid:EmptyStatementUsageCheck%"Remove this empty statement.(îŞÃÎ8´š—â.HŠRMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒ²Éƒ8æ¯ª•â.HˆRMAJORZ
+CODE_SMELL
+zsquid:S1854"ARemove this useless assignment to local variable "cricketCoach2".(¿„ÆÜøÿÿÿÿ8´š—â.H†RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚœÕùÿÿÿÿ8«ÿ¤Çß.HŒRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(™çšùÿÿÿÿ8ŒŒıùá.H‰RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğœ¿²şÿÿÿÿ8Öøòúá.HƒRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(İ‡¢Ûÿÿÿÿÿ8üĞÅşÎ.H‹RMAJORZ
+CODE_SMELL

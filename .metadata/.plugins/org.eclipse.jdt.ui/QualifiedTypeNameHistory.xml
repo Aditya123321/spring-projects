@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.luv2code.springdemo.FortuneService"/>
+<fullyQualifiedTypeName name="com.luv2code.springdemo.BaseballCoach"/>
+<fullyQualifiedTypeName name="com.luv2code.springdemo.TableTennisCoach"/>
+<fullyQualifiedTypeName name="com.luv2code.springdemo.TrackCoach"/>
+<fullyQualifiedTypeName name="java.util.Spliterator"/>
+</qualifiedTypeNameHistroy>
